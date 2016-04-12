@@ -1,4 +1,4 @@
-package org.kloeckner;
+package org.kloeckner.spring;
 
 import org.springframework.context.annotation.*;
 

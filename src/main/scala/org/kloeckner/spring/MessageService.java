@@ -1,4 +1,4 @@
-package org.kloeckner;
+package org.kloeckner.spring;
 
 public interface MessageService {
     String getMessage();
