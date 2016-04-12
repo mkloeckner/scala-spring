@@ -7,6 +7,8 @@ public class HelloWorldSpringConfig {
 
    @Bean 
    public HelloWorld helloWorld(){
-      return new HelloWorld();
+      HelloWorld helloWorld = new HelloWorld();
+      helloWorld.setMessage("Hello Scala-World!");
+      return helloWorld;
    }
 }
